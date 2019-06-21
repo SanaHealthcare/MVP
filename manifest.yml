@@ -2,13 +2,13 @@
 declared-services:
   rtt-speech-to-text:
     label: speech_to_text
-    plan: standard
+    plan: lite
   rtt-tone-analyzer:
     label: tone_analyzer
-    plan: beta
+    plan: lite
 applications:
-- name: moods 
-  host: moods 
+- name: Sana MVP
+  host: Sana MVP 
   memory: 256M
   instances: 1
   path: .
